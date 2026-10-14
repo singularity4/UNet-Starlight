@@ -5,7 +5,9 @@ U-Nets for the discovery of strong gravitational lenses in *Euclid* VIS images, 
 are in the [EUCLID-SAGE](https://github.com/singularity4/EUCLID-SAGE) repository.
 
 The U-Nets are pretrained on simulated images to segment lensed arcs. The neural networks are then trained to classify the real *Euclid* Q1 stamps of the EUCLID-SAGE
-benchmarks. UNet-Radius-mini estimates the Einstein radius on the real *Euclid* lenses. Its estimates
+benchmarks. 
+
+UNet-Radius-mini estimates the Einstein radius on the real *Euclid* lenses. Its estimates
 are compared with the radii obtained by gravitational lens modelling.
 
 | Model | Filters (first block to bottleneck) | Parameters |
