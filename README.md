@@ -4,6 +4,8 @@ U-Nets for the discovery of strong gravitational lenses in *Euclid* VIS images, 
 *EUCLID-SAGE: A Benchmark Suite and U-Net for Strong Gravitational Lens Discovery*. The benchmarks
 are in the [EUCLID-SAGE](https://github.com/singularity4/EUCLID-SAGE) repository.
 
+<img src="image.png" alt="UNet-Starlight" width="420">
+
 The U-Nets are pretrained on simulated images to segment lensed arcs. The neural networks are then trained to classify the real *Euclid* Q1 stamps of the EUCLID-SAGE
 benchmarks. 
 
