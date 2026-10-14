@@ -1,0 +1,9 @@
+# UNet-Starlight. Tested with Python 3.12 and the versions given below.
+torch==2.2.2
+numpy<2               # required by torch 2.2.2
+scipy
+scikit-learn
+pandas
+astropy
+matplotlib            # figure of test examples written by train_simulations.py
+lenstronomy==1.14.2   # simulate.py
